@@ -1,7 +1,6 @@
 // Import the React and ReactDOM libaries
 import React from "react";
 import ReactDOM from "react-dom";
-
 // Create a react component " A React Component is a function or a class that generates HTML to show the user and handles feedback from the userr"
 function get_button_txt() {
     return "Submit";
