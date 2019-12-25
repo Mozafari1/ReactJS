@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import CommentsDetail from './CommentsDetail';
 import ApprovalCard from './ApprovalCard';
 import faker from 'faker';
-
+// Using functional components. Its good to use functional components for simple content. In my case I'm using functional components
 const App = () => {
     return React.createElement(
         'div', {
