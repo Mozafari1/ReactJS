@@ -38,9 +38,7 @@ const claimHistory = (oldHistory = [], action) => {
 const accounting = (Money = 10000, action) => {
     if (action.type === 'CREATE_CLAIM') {
         return Money - action.paylaod.amountOfMoney;
-    }
-    els;
-    if (action.type == 'CREATE_CLAIM') {
+    } else if (action.type == 'CREATE_CLAIM') {
         return Money + action.paylaod.amount;
     }
     return Money;
