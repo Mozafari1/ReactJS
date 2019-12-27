@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'ReactDOM';
+import { connect } from 'react-redux';
 
-const App = (name, amount) => {
+console.clear();
+const createPolicy = (name, amount) => {
     return {
         type: 'CREATE_POLICY',
         payload: {
@@ -52,4 +52,16 @@ const policies = (listOfPolices = [], action) => {
     }
     return listOfPolices;
 };
-ReactDOM.render( < App / > , document.querySelector('#root'));
+
+const { createStore, combineReducers } = Redux;
+const ourDepartments = combineReducers({
+    accounting: accounting,
+    claimHistory: claimHistory,
+    policies: policies
+});
+
+const store = createStore(ourDepartments);
+const action = createPolicy('X and Y', 2000);
+
+store.dispatch(action);
+store.getState();
