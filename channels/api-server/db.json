@@ -1,0 +1,22 @@
+{
+  "channels": [
+    {
+      "title": "My Channel",
+      "description": "Channem",
+      "userId": "109883320053708788491",
+      "id": 1
+    },
+    {
+      "title": "Code channel",
+      "description": "this C++ channel code",
+      "userId": "109883320053708788491",
+      "id": 2
+    },
+    {
+      "title": "Kanapkaie",
+      "description": "From Vilnuse",
+      "userId": "109883320053708788491",
+      "id": 3
+    }
+  ]
+}
