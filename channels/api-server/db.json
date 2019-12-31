@@ -1,20 +1,20 @@
 {
   "channels": [
     {
-      "title": "My Channel",
-      "description": "Channem",
+      "title": "Code Channels",
+      "description": "C++ programming ",
       "userId": "109883320053708788491",
       "id": 1
     },
     {
-      "title": "Code channel",
-      "description": "this C++ channel code",
+      "title": "Game Channel",
+      "description": "CIV 5",
       "userId": "109883320053708788491",
       "id": 2
     },
     {
-      "title": "Kanapkaie",
-      "description": "From Vilnuse",
+      "title": "wild Life",
+      "description": "Wild Life",
       "userId": "109883320053708788491",
       "id": 3
     }
